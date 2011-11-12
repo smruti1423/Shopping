@@ -1,0 +1,16 @@
+/Users/billpringle/Documents/Shopping/Classes/Item.m:14: error: no declaration of property 'itemid' found in the interface
+/Users/billpringle/Documents/Shopping/Classes/Item.m:14: error: no declaration of property 'name' found in the interface
+/Users/billpringle/Documents/Shopping/Classes/Item.m:14: error: no declaration of property 'notes' found in the interface
+/Users/billpringle/Documents/Shopping/Classes/Item.m:14: error: no declaration of property 'need' found in the interface
+/Users/billpringle/Documents/Shopping/Classes/Item.m: In function '-[Item initWithPrimaryKey:]':
+/Users/billpringle/Documents/Shopping/Classes/Item.m:18: error: 'itemid' undeclared (first use in this function)
+/Users/billpringle/Documents/Shopping/Classes/Item.m:18: error: (Each undeclared identifier is reported only once
+/Users/billpringle/Documents/Shopping/Classes/Item.m:18: error: for each function it appears in.)
+/Users/billpringle/Documents/Shopping/Classes/Item.m:19: error: 'name' undeclared (first use in this function)
+/Users/billpringle/Documents/Shopping/Classes/Item.m:20: error: 'need' undeclared (first use in this function)
+/Users/billpringle/Documents/Shopping/Classes/Item.m:21: error: 'notes' undeclared (first use in this function)
+/Users/billpringle/Documents/Shopping/Classes/Item.m: In function '-[Item initWithName:itemid:notes:need:]':
+/Users/billpringle/Documents/Shopping/Classes/Item.m:28: error: request for member 'itemid' in something not a structure or union
+/Users/billpringle/Documents/Shopping/Classes/Item.m:29: error: request for member 'name' in something not a structure or union
+/Users/billpringle/Documents/Shopping/Classes/Item.m:30: error: request for member 'need' in something not a structure or union
+/Users/billpringle/Documents/Shopping/Classes/Item.m:31: error: request for member 'notes' in something not a structure or union

@@ -1,0 +1,350 @@
+TShopping
+v7
+r0
+t288760907.885634
+cCheck dependencies
+cProcessInfoPlistFile /Users/wrp103/Documents/Shopping/build/Debug-iphonesimulator/Shopping.app/Info.plist Shopping-Info.plist
+cCompileXIB /Users/wrp103/Documents/Shopping/MainWindow.xib
+cCompileXIB /Users/wrp103/Documents/Shopping/RootViewController.xib
+cCpResource build/Debug-iphonesimulator/Shopping.app/Shopping.sqlite Shopping.sqlite
+cCompileXIB /Users/wrp103/Documents/Shopping/Classes/AddViewController.xib
+cProcessPCH /var/folders/ex/ex5tVUqeFeKiei12CGztPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shopping_Prefix-eucctmbzoixqikdweslgtmkscnak/Shopping_Prefix.pch.gch Shopping_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Shopping.build/Debug-iphonesimulator/Shopping.build/Objects-normal/i386/main.o /Users/wrp103/Documents/Shopping/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Shopping.build/Debug-iphonesimulator/Shopping.build/Objects-normal/i386/ShoppingAppDelegate.o /Users/wrp103/Documents/Shopping/Classes/ShoppingAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Shopping.build/Debug-iphonesimulator/Shopping.build/Objects-normal/i386/RootViewController.o /Users/wrp103/Documents/Shopping/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Shopping.build/Debug-iphonesimulator/Shopping.build/Objects-normal/i386/Item.o /Users/wrp103/Documents/Shopping/Classes/Item.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Shopping.build/Debug-iphonesimulator/Shopping.build/Objects-normal/i386/AddViewController.o /Users/wrp103/Documents/Shopping/Classes/AddViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/wrp103/Documents/Shopping/build/Debug-iphonesimulator/Shopping.app/Shopping normal i386
+cGenerateDSYMFile /Users/wrp103/Documents/Shopping/build/Debug-iphonesimulator/Shopping.app.dSYM /Users/wrp103/Documents/Shopping/build/Debug-iphonesimulator/Shopping.app/Shopping
+cTouch /Users/wrp103/Documents/Shopping/build/Debug-iphonesimulator/Shopping.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk
+c000000004B2B86DD00000000000000EE
+t1261143773
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004ABDC853000000000026DAB0
+t1253951571
+s2546352
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004ABDC952000000000027D510
+t1253951826
+s2610448
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004ABDC93F0000000000001355
+t1253951807
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004ABDEE1D0000000000000788
+t1253961245
+s1928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004ABDEEE20000000001670E70
+t1253961442
+s23531120
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/Availability.h
+c000000004ABDCA4700000000000019F9
+t1253952071
+s6649
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/sqlite3.h
+c000000004ABDC6A0000000000003D86F
+t1253951136
+s252015
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/lib/libsqlite3.dylib
+c000000004ABDC6BF00000000000C3980
+t1253951167
+s801152
+
+N/Users/wrp103/Documents/Shopping/Classes/AddViewController.h
+c000000004B7CC8CE0000000000000148
+t1266469070
+s328
+i<UIKit/UIKit.h>
+
+N/Users/wrp103/Documents/Shopping/Classes/AddViewController.m
+c000000004B7DAA000000000000000BA4
+t1266526720
+s2980
+i<Foundation/Foundation.h>
+i"AddViewController.h"
+i"ShoppingAppDelegate.h"
+i"Item.h"
+
+N/Users/wrp103/Documents/Shopping/Classes/AddViewController.xib
+c000000004B7721C00000000000001871
+t1266098624
+s6257
+
+N/Users/wrp103/Documents/Shopping/Classes/Item.h
+c000000004B65045E0000000000000264
+t1264911454
+s612
+i<Foundation/Foundation.h>
+
+N/Users/wrp103/Documents/Shopping/Classes/Item.m
+c000000004B650458000000000000021B
+t1264911448
+s539
+i"Item.h"
+
+N/Users/wrp103/Documents/Shopping/Classes/RootViewController.h
+c000000004B84789C00000000000001B8
+t1266972828
+s440
+i"AddViewController.h"
+i"ShoppingAppDelegate.h"
+
+N/Users/wrp103/Documents/Shopping/Classes/RootViewController.m
+c000000004B85ECC20000000000001A8A
+t1267068098
+s6794
+i<sqlite3.h>
+i"RootViewController.h"
+i"ShoppingAppDelegate.h"
+i"Item.h"
+
+N/Users/wrp103/Documents/Shopping/Classes/ShoppingAppDelegate.h
+c000000004B7C424A00000000000004A7
+t1266434634
+s1191
+i<sqlite3.h>
+i"Item.h"
+
+N/Users/wrp103/Documents/Shopping/Classes/ShoppingAppDelegate.m
+c000000004B7C423C0000000000001EA1
+t1266434620
+s7841
+i"ShoppingAppDelegate.h"
+i"RootViewController.h"
+
+N/Users/wrp103/Documents/Shopping/MainWindow.xib
+c000000004B64EDB40000000000002C65
+t1264905652
+s11365
+
+N/Users/wrp103/Documents/Shopping/RootViewController.xib
+c000000004B64EDB40000000000004322
+t1264905652
+s17186
+
+N/Users/wrp103/Documents/Shopping/Shopping.sqlite
+c000000004B61F3F80000000000000C00
+t1264710648
+s3072
+
+N/Users/wrp103/Documents/Shopping/Shopping_Prefix.pch
+c000000004B64EDB40000000000000142
+t1264905652
+s322
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/wrp103/Documents/Shopping/build/Debug-iphonesimulator/Shopping.app
+t1267068107
+s306
+
+N/Users/wrp103/Documents/Shopping/build/Debug-iphonesimulator/Shopping.app.dSYM
+t1267068107
+s102
+
+N/Users/wrp103/Documents/Shopping/build/Debug-iphonesimulator/Shopping.app/AddViewController.nib
+t1266434472
+s1106
+
+N/Users/wrp103/Documents/Shopping/build/Debug-iphonesimulator/Shopping.app/Info.plist
+t1264906106
+s546
+
+N/Users/wrp103/Documents/Shopping/build/Debug-iphonesimulator/Shopping.app/MainWindow.nib
+t1264906108
+s2013
+
+N/Users/wrp103/Documents/Shopping/build/Debug-iphonesimulator/Shopping.app/PkgInfo
+t1264906106
+s8
+
+N/Users/wrp103/Documents/Shopping/build/Debug-iphonesimulator/Shopping.app/RootViewController.nib
+t1264906108
+s1388
+
+N/Users/wrp103/Documents/Shopping/build/Debug-iphonesimulator/Shopping.app/Shopping
+t1267068107
+s38640
+
+N/Users/wrp103/Documents/Shopping/build/Debug-iphonesimulator/Shopping.app/Shopping.sqlite
+t1265660644
+s3072
+
+N/Users/wrp103/Documents/Shopping/build/Shopping.build/Debug-iphonesimulator/Shopping.build/Objects-normal/i386/AddViewController.o
+t1267068107
+s44068
+
+N/Users/wrp103/Documents/Shopping/build/Shopping.build/Debug-iphonesimulator/Shopping.build/Objects-normal/i386/Item.o
+t1267068107
+s10776
+
+N/Users/wrp103/Documents/Shopping/build/Shopping.build/Debug-iphonesimulator/Shopping.build/Objects-normal/i386/RootViewController.o
+t1267068107
+s50632
+
+N/Users/wrp103/Documents/Shopping/build/Shopping.build/Debug-iphonesimulator/Shopping.build/Objects-normal/i386/Shopping.LinkFileList
+c000000004B85ECC90000000000000278
+t1267068105
+s632
+
+N/Users/wrp103/Documents/Shopping/build/Shopping.build/Debug-iphonesimulator/Shopping.build/Objects-normal/i386/ShoppingAppDelegate.o
+t1267068107
+s55492
+
+N/Users/wrp103/Documents/Shopping/build/Shopping.build/Debug-iphonesimulator/Shopping.build/Objects-normal/i386/main.o
+t1267068106
+s5944
+
+N/Users/wrp103/Documents/Shopping/main.m
+c000000004B64EDB4000000000000016A
+t1264905652
+s362
+i<UIKit/UIKit.h>
+
+N/var/folders/ex/ex5tVUqeFeKiei12CGztPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shopping_Prefix-eucctmbzoixqikdweslgtmkscnak/Shopping_Prefix.pch.gch
+t1267068106
+s13034960
+
+NShopping-Info.plist
+c000000004B64EDB4000000000000038D
+t1264905652
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies288760904#288760905#0(0"0(0#1#0"7947009927035180032#0"0#
+
+CCompileC build/Shopping.build/Debug-iphonesimulator/Shopping.build/Objects-normal/i386/AddViewController.o /Users/wrp103/Documents/Shopping/Classes/AddViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s288760907.063368
+e288760907.158509
+r1
+xCompileC
+xbuild/Shopping.build/Debug-iphonesimulator/Shopping.build/Objects-normal/i386/AddViewController.o
+x/Users/wrp103/Documents/Shopping/Classes/AddViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/wrp103/Documents/Shopping/Classes/AddViewController.m288760907#288760907#0(0"0(0#0#60"/Users/wrp103/Documents/Shopping/Classes/AddViewController.m4300885448#1847"    cd /Users/wrp103/Documents/Shopping    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/wrp103/Documents/Shopping/build/Shopping.build/Debug-iphonesimulator/Shopping.build/Shopping-generated-files.hmap -I/Users/wrp103/Documents/Shopping/build/Shopping.build/Debug-iphonesimulator/Shopping.build/Shopping-own-target-headers.hmap -I/Users/wrp103/Documents/Shopping/build/Shopping.build/Debug-iphonesimulator/Shopping.build/Shopping-all-target-headers.hmap -iquote /Users/wrp103/Documents/Shopping/build/Shopping.build/Debug-iphonesimulator/Shopping.build/Shopping-project-headers.hmap -F/Users/wrp103/Documents/Shopping/build/Debug-iphonesimulator -I/Users/wrp103/Documents/Shopping/build/Debug-iphonesimulator/include -I/Users/wrp103/Documents/Shopping/build/Shopping.build/Debug-iphonesimulator/Shopping.build/DerivedSources/i386 -I/Users/wrp103/Documents/Shopping/build/Shopping.build/Debug-iphonesimulator/Shopping.build/DerivedSources -include /var/folders/ex/ex5tVUqeFeKiei12CGztPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shopping_Prefix-eucctmbzoixqikdweslgtmkscnak/Shopping_Prefix.pch -c /Users/wrp103/Documents/Shopping/Classes/AddViewController.m -o /Users/wrp103/Documents/Shopping/build/Shopping.build/Debug-iphonesimulator/Shopping.build/Objects-normal/i386/AddViewController.o0#
+
+CCompileC build/Shopping.build/Debug-iphonesimulator/Shopping.build/Objects-normal/i386/Item.o /Users/wrp103/Documents/Shopping/Classes/Item.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s288760907.062212
+e288760907.128487
+r1
+xCompileC
+xbuild/Shopping.build/Debug-iphonesimulator/Shopping.build/Objects-normal/i386/Item.o
+x/Users/wrp103/Documents/Shopping/Classes/Item.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/wrp103/Documents/Shopping/Classes/Item.m288760907#288760907#0(0"0(0#0#47"/Users/wrp103/Documents/Shopping/Classes/Item.m4300885448#1821"    cd /Users/wrp103/Documents/Shopping    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/wrp103/Documents/Shopping/build/Shopping.build/Debug-iphonesimulator/Shopping.build/Shopping-generated-files.hmap -I/Users/wrp103/Documents/Shopping/build/Shopping.build/Debug-iphonesimulator/Shopping.build/Shopping-own-target-headers.hmap -I/Users/wrp103/Documents/Shopping/build/Shopping.build/Debug-iphonesimulator/Shopping.build/Shopping-all-target-headers.hmap -iquote /Users/wrp103/Documents/Shopping/build/Shopping.build/Debug-iphonesimulator/Shopping.build/Shopping-project-headers.hmap -F/Users/wrp103/Documents/Shopping/build/Debug-iphonesimulator -I/Users/wrp103/Documents/Shopping/build/Debug-iphonesimulator/include -I/Users/wrp103/Documents/Shopping/build/Shopping.build/Debug-iphonesimulator/Shopping.build/DerivedSources/i386 -I/Users/wrp103/Documents/Shopping/build/Shopping.build/Debug-iphonesimulator/Shopping.build/DerivedSources -include /var/folders/ex/ex5tVUqeFeKiei12CGztPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shopping_Prefix-eucctmbzoixqikdweslgtmkscnak/Shopping_Prefix.pch -c /Users/wrp103/Documents/Shopping/Classes/Item.m -o /Users/wrp103/Documents/Shopping/build/Shopping.build/Debug-iphonesimulator/Shopping.build/Objects-normal/i386/Item.o0#
+
+CCompileC build/Shopping.build/Debug-iphonesimulator/Shopping.build/Objects-normal/i386/RootViewController.o /Users/wrp103/Documents/Shopping/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s288760906.952188
+e288760907.062071
+r1
+xCompileC
+xbuild/Shopping.build/Debug-iphonesimulator/Shopping.build/Objects-normal/i386/RootViewController.o
+x/Users/wrp103/Documents/Shopping/Classes/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/wrp103/Documents/Shopping/Classes/RootViewController.m288760906#288760907#0(0"0(0#0#61"/Users/wrp103/Documents/Shopping/Classes/RootViewController.m4300885448#1849"    cd /Users/wrp103/Documents/Shopping    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/wrp103/Documents/Shopping/build/Shopping.build/Debug-iphonesimulator/Shopping.build/Shopping-generated-files.hmap -I/Users/wrp103/Documents/Shopping/build/Shopping.build/Debug-iphonesimulator/Shopping.build/Shopping-own-target-headers.hmap -I/Users/wrp103/Documents/Shopping/build/Shopping.build/Debug-iphonesimulator/Shopping.build/Shopping-all-target-headers.hmap -iquote /Users/wrp103/Documents/Shopping/build/Shopping.build/Debug-iphonesimulator/Shopping.build/Shopping-project-headers.hmap -F/Users/wrp103/Documents/Shopping/build/Debug-iphonesimulator -I/Users/wrp103/Documents/Shopping/build/Debug-iphonesimulator/include -I/Users/wrp103/Documents/Shopping/build/Shopping.build/Debug-iphonesimulator/Shopping.build/DerivedSources/i386 -I/Users/wrp103/Documents/Shopping/build/Shopping.build/Debug-iphonesimulator/Shopping.build/DerivedSources -include /var/folders/ex/ex5tVUqeFeKiei12CGztPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shopping_Prefix-eucctmbzoixqikdweslgtmkscnak/Shopping_Prefix.pch -c /Users/wrp103/Documents/Shopping/Classes/RootViewController.m -o /Users/wrp103/Documents/Shopping/build/Shopping.build/Debug-iphonesimulator/Shopping.build/Objects-normal/i386/RootViewController.o0#
+
+CCompileC build/Shopping.build/Debug-iphonesimulator/Shopping.build/Objects-normal/i386/ShoppingAppDelegate.o /Users/wrp103/Documents/Shopping/Classes/ShoppingAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s288760906.781619
+e288760907.063287
+r1
+xCompileC
+xbuild/Shopping.build/Debug-iphonesimulator/Shopping.build/Objects-normal/i386/ShoppingAppDelegate.o
+x/Users/wrp103/Documents/Shopping/Classes/ShoppingAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/wrp103/Documents/Shopping/Classes/ShoppingAppDelegate.m288760906#288760907#0(0"0(0#0#62"/Users/wrp103/Documents/Shopping/Classes/ShoppingAppDelegate.m4300885448#1851"    cd /Users/wrp103/Documents/Shopping    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/wrp103/Documents/Shopping/build/Shopping.build/Debug-iphonesimulator/Shopping.build/Shopping-generated-files.hmap -I/Users/wrp103/Documents/Shopping/build/Shopping.build/Debug-iphonesimulator/Shopping.build/Shopping-own-target-headers.hmap -I/Users/wrp103/Documents/Shopping/build/Shopping.build/Debug-iphonesimulator/Shopping.build/Shopping-all-target-headers.hmap -iquote /Users/wrp103/Documents/Shopping/build/Shopping.build/Debug-iphonesimulator/Shopping.build/Shopping-project-headers.hmap -F/Users/wrp103/Documents/Shopping/build/Debug-iphonesimulator -I/Users/wrp103/Documents/Shopping/build/Debug-iphonesimulator/include -I/Users/wrp103/Documents/Shopping/build/Shopping.build/Debug-iphonesimulator/Shopping.build/DerivedSources/i386 -I/Users/wrp103/Documents/Shopping/build/Shopping.build/Debug-iphonesimulator/Shopping.build/DerivedSources -include /var/folders/ex/ex5tVUqeFeKiei12CGztPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shopping_Prefix-eucctmbzoixqikdweslgtmkscnak/Shopping_Prefix.pch -c /Users/wrp103/Documents/Shopping/Classes/ShoppingAppDelegate.m -o /Users/wrp103/Documents/Shopping/build/Shopping.build/Debug-iphonesimulator/Shopping.build/Objects-normal/i386/ShoppingAppDelegate.o0#
+
+CCompileC build/Shopping.build/Debug-iphonesimulator/Shopping.build/Objects-normal/i386/main.o /Users/wrp103/Documents/Shopping/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s288760906.780343
+e288760906.952053
+r1
+xCompileC
+xbuild/Shopping.build/Debug-iphonesimulator/Shopping.build/Objects-normal/i386/main.o
+x/Users/wrp103/Documents/Shopping/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /Users/wrp103/Documents/Shopping/main.m288760906#288760906#0(0"0(0#0#39"/Users/wrp103/Documents/Shopping/main.m4300885448#1813"    cd /Users/wrp103/Documents/Shopping    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/wrp103/Documents/Shopping/build/Shopping.build/Debug-iphonesimulator/Shopping.build/Shopping-generated-files.hmap -I/Users/wrp103/Documents/Shopping/build/Shopping.build/Debug-iphonesimulator/Shopping.build/Shopping-own-target-headers.hmap -I/Users/wrp103/Documents/Shopping/build/Shopping.build/Debug-iphonesimulator/Shopping.build/Shopping-all-target-headers.hmap -iquote /Users/wrp103/Documents/Shopping/build/Shopping.build/Debug-iphonesimulator/Shopping.build/Shopping-project-headers.hmap -F/Users/wrp103/Documents/Shopping/build/Debug-iphonesimulator -I/Users/wrp103/Documents/Shopping/build/Debug-iphonesimulator/include -I/Users/wrp103/Documents/Shopping/build/Shopping.build/Debug-iphonesimulator/Shopping.build/DerivedSources/i386 -I/Users/wrp103/Documents/Shopping/build/Shopping.build/Debug-iphonesimulator/Shopping.build/DerivedSources -include /var/folders/ex/ex5tVUqeFeKiei12CGztPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shopping_Prefix-eucctmbzoixqikdweslgtmkscnak/Shopping_Prefix.pch -c /Users/wrp103/Documents/Shopping/main.m -o /Users/wrp103/Documents/Shopping/build/Shopping.build/Debug-iphonesimulator/Shopping.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/wrp103/Documents/Shopping/Classes/AddViewController.xib
+r0
+
+CCompileXIB /Users/wrp103/Documents/Shopping/MainWindow.xib
+r0
+
+CCompileXIB /Users/wrp103/Documents/Shopping/RootViewController.xib
+r0
+
+CCpResource build/Debug-iphonesimulator/Shopping.app/Shopping.sqlite Shopping.sqlite
+r0
+
+CGenerateDSYMFile /Users/wrp103/Documents/Shopping/build/Debug-iphonesimulator/Shopping.app.dSYM /Users/wrp103/Documents/Shopping/build/Debug-iphonesimulator/Shopping.app/Shopping
+s288760907.783163
+e288760907.866982
+r1
+xGenerateDSYMFile
+x/Users/wrp103/Documents/Shopping/build/Debug-iphonesimulator/Shopping.app.dSYM
+x/Users/wrp103/Documents/Shopping/build/Debug-iphonesimulator/Shopping.app/Shopping
+lSLF07#2@112"GenerateDSYMFile build/Debug-iphonesimulator/Shopping.app.dSYM build/Debug-iphonesimulator/Shopping.app/Shopping288760907#288760907#0(0"0(0#0#82"/Users/wrp103/Documents/Shopping/build/Debug-iphonesimulator/Shopping.app/Shopping4300885448#368"    cd /Users/wrp103/Documents/Shopping    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/wrp103/Documents/Shopping/build/Debug-iphonesimulator/Shopping.app/Shopping -o /Users/wrp103/Documents/Shopping/build/Debug-iphonesimulator/Shopping.app.dSYM0#
+
+CLd /Users/wrp103/Documents/Shopping/build/Debug-iphonesimulator/Shopping.app/Shopping normal i386
+s288760907.158615
+e288760907.783042
+r1
+xLd
+x/Users/wrp103/Documents/Shopping/build/Debug-iphonesimulator/Shopping.app/Shopping
+xnormal
+xi386
+lSLF07#2@87"Link /Users/wrp103/Documents/Shopping/build/Debug-iphonesimulator/Shopping.app/Shopping288760907#288760907#0(0"0(0#0#0"4300885448#849"    cd /Users/wrp103/Documents/Shopping    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -L/Users/wrp103/Documents/Shopping/build/Debug-iphonesimulator -F/Users/wrp103/Documents/Shopping/build/Debug-iphonesimulator -filelist /Users/wrp103/Documents/Shopping/build/Shopping.build/Debug-iphonesimulator/Shopping.build/Objects-normal/i386/Shopping.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -lsqlite3 -o /Users/wrp103/Documents/Shopping/build/Debug-iphonesimulator/Shopping.app/Shopping0#
+
+CProcessInfoPlistFile /Users/wrp103/Documents/Shopping/build/Debug-iphonesimulator/Shopping.app/Info.plist Shopping-Info.plist
+r0
+
+CProcessPCH /var/folders/ex/ex5tVUqeFeKiei12CGztPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shopping_Prefix-eucctmbzoixqikdweslgtmkscnak/Shopping_Prefix.pch.gch Shopping_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s288760905.060988
+e288760906.780083
+r1
+xProcessPCH
+x/var/folders/ex/ex5tVUqeFeKiei12CGztPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shopping_Prefix-eucctmbzoixqikdweslgtmkscnak/Shopping_Prefix.pch.gch
+xShopping_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile Shopping_Prefix.pch288760905#288760906#0(0"0(0#0#52"/Users/wrp103/Documents/Shopping/Shopping_Prefix.pch7517404375898481664#1710"    cd /Users/wrp103/Documents/Shopping    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/wrp103/Documents/Shopping/build/Shopping.build/Debug-iphonesimulator/Shopping.build/Shopping-generated-files.hmap -I/Users/wrp103/Documents/Shopping/build/Shopping.build/Debug-iphonesimulator/Shopping.build/Shopping-own-target-headers.hmap -I/Users/wrp103/Documents/Shopping/build/Shopping.build/Debug-iphonesimulator/Shopping.build/Shopping-all-target-headers.hmap -iquote /Users/wrp103/Documents/Shopping/build/Shopping.build/Debug-iphonesimulator/Shopping.build/Shopping-project-headers.hmap -F/Users/wrp103/Documents/Shopping/build/Debug-iphonesimulator -I/Users/wrp103/Documents/Shopping/build/Debug-iphonesimulator/include -I/Users/wrp103/Documents/Shopping/build/Shopping.build/Debug-iphonesimulator/Shopping.build/DerivedSources/i386 -I/Users/wrp103/Documents/Shopping/build/Shopping.build/Debug-iphonesimulator/Shopping.build/DerivedSources -c /Users/wrp103/Documents/Shopping/Shopping_Prefix.pch -o /var/folders/ex/ex5tVUqeFeKiei12CGztPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shopping_Prefix-eucctmbzoixqikdweslgtmkscnak/Shopping_Prefix.pch.gch0#
+
+CTouch /Users/wrp103/Documents/Shopping/build/Debug-iphonesimulator/Shopping.app
+s288760907.867079
+e288760907.885546
+r1
+xTouch
+x/Users/wrp103/Documents/Shopping/build/Debug-iphonesimulator/Shopping.app
+lSLF07#2@79"Touch /Users/wrp103/Documents/Shopping/build/Debug-iphonesimulator/Shopping.app288760907#288760907#0(0"0(0#0#0"4300885448#267"    cd /Users/wrp103/Documents/Shopping    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/wrp103/Documents/Shopping/build/Debug-iphonesimulator/Shopping.app0#
+
